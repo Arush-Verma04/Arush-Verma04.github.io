@@ -1,52 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - Arush Verma</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Arush Verma</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>My Projects</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="assets/resume.pdf">Resume</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Deep Reinforcement Learning for Modern Cryptocurrency Trading (Fall 2024)</h2>
-      <p>This project applied advanced reinforcement learning techniques to cryptocurrency trading, focusing on Bitcoin. Using Deep Q-Learning (DQN) and Proximal Policy Optimization (PPO) models, we developed agents capable of optimizing buy, sell, and hold strategies based on historical price data. Our approach also compared these methods to a baseline Bollinger Bands strategy. Results revealed that PPO outperformed DQN in handling market volatility, achieving a modest total return of 4.91% with minimal risk. The findings contribute to AI-driven financial strategies by highlighting the strengths and limitations of reinforcement learning in volatile cryptocurrency markets.</p>
-      <p>
-        <a href="https://gtvault-my.sharepoint.com/:p:/g/personal/averma343_gatech_edu/Eas3Wc-s-oNOqgplIuCOjwMBi-yCuosTvx219te9otAeYQ?e=01HZ6S" target="_blank">📂 View Presentation</a> |
-        <a href="assets/Deep_Learning_Project.pdf" target="_blank">📄 View Deep Learning Report</a>
-      </p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button-30">Home</a></li>
+                <li><a href="projects.html" class="button-30 current-page">Projects</a></li>
+                <li><a href="assets/resume.pdf" class="button-30" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="project">
+                <img src="assets/dl_image.png" alt="Deep Learning Project" class="project-image">
+                <div class="project-content">
+                    <h2>Deep Reinforcement Learning for Modern Cryptocurrency Trading</h2>
+                    <p>This project applied advanced reinforcement learning techniques to cryptocurrency trading, focusing on Bitcoin. Using Deep Q-Learning (DQN) and Proximal Policy Optimization (PPO) models, we developed agents capable of optimizing buy, sell, and hold strategies based on historical price data. Our approach also compared these methods to a baseline Bollinger Bands strategy. Results revealed that PPO outperformed DQN in handling market volatility, achieving a modest total return of 4.91% with minimal risk.</p>
+                    <div class="project-buttons">
+                        <a href="https://gtvault-my.sharepoint.com/:p:/g/personal/averma343_gatech_edu/Eas3Wc-s-oNOqgplIuCOjwMBi-yCuosTvx219te9otAeYQ?e=01HZ6S" class="button-86" target="_blank">View Presentation</a>
+                        <a href="assets/dl_project.pdf" class="button-86" target="_blank">View Report</a>
+                    </div>
+                </div>
+            </div>
 
-      <h2>Iris - Navigation Aid for the Blind (Spring 2024)</h2>
-      <p>The Iris project is a Swift-based iOS application designed to assist visually impaired individuals in navigating their surroundings. Using real-time object detection powered by a YOLO model, the app continuously captures environmental data through the iPhone camera. I developed the user interface and integrated a text-to-speech (TTS) system to provide spoken feedback about detected obstacles. This project was focused on accessibility and improving the independence of visually impaired users.</p>
-      <p><a href="https://devpost.com/software/iris-hdyc1a" target="_blank">📂 View on Devpost</a></p>
+            <div class="project">
+                <img src="assets/iris_image.png" alt="Iris Project" class="project-image">
+                <div class="project-content">
+                    <h2>Iris - Navigation Aid for the Blind</h2>
+                    <p>The Iris project is a Swift-based iOS application designed to assist visually impaired individuals in navigating their surroundings. Using real-time object detection powered by a YOLO model, the app continuously captures environmental data through the iPhone camera. I developed the user interface and integrated a text-to-speech (TTS) system to provide spoken feedback about detected obstacles. This project was focused on accessibility and improving the independence of visually impaired users.</p>
+                    <div class="project-buttons">
+                        <a href="https://devpost.com/software/iris-hdyc1a" class="button-86" target="_blank">View on Devpost</a>
+                    </div>
+                </div>
+            </div>
 
-      <h2>Detecting Disease from Respiratory Audio (Spring 2024)</h2>
-      <p>This project involved developing a deep learning pipeline for detecting respiratory diseases using audio spectrograms. I preprocessed patient data to generate Mel spectrograms for each breathing cycle and applied Principal Component Analysis to analyze data trends. Using a Convolutional Neural Network (CNN), I built a model that achieved 82% accuracy in predicting diseases from spectrogram data.</p>
-      <p><a href="https://msub9.github.io/" target="_blank">📂 View Project</a></p>
+            <div class="project">
+                <img src="assets/dungeon_image.png" alt="Dungeon Crawler Screenshot" class="project-image">
+                <div class="project-content">
+                    <h2>Dungeon Crawler</h2>
+                    <p>Dungeon Crawler is an interactive game built in Android Studio, featuring a player navigating through a dynamically generated dungeon environment. I implemented the game's interaction mechanics, including enemy behaviors, movement physics, and level progression. As the lead developer, I structured the game architecture using Agile methodologies and created UML diagrams, including Sequence Diagrams and System Sequence Diagrams, to map out the design.</p>
+                </div>
+            </div>
 
-      <h2>Dungeon Crawler (Fall 2023)</h2>
-      <div class="project-row">
-        <p>
-          Dungeon Crawler is an interactive game built in Android Studio, featuring a player navigating through a dynamically generated dungeon environment. I implemented the game’s interaction mechanics, including enemy behaviors, movement physics, and level progression. As the lead developer, I structured the game architecture using Agile methodologies and created UML diagrams, including Sequence Diagrams and System Sequence Diagrams, to map out the design.
-        </p>
-        <img src="assets/IMG_6553.png" alt="Dungeon Crawler Screenshot" class="project-image">
-      </div>
-
-      <h2>Orbital Dynamics (Spring 2022)</h2>
-      <p>In this project, I developed a predictive model for tracking celestial bodies using machine learning. I trained a linear regression model on 250 data points to estimate the position of a comet over time, while also computing its velocity and acceleration. By scaling the model to different celestial objects, I demonstrated its adaptability in predicting orbital paths. The final analysis and visualizations were done using Matplotlib to illustrate real-time orbital movements.</p>
-      <p><a href="assets/Orbital_Dynamics_DIFF_EQ_project.pdf" target="_blank">📄 View Orbital Dynamics Paper</a></p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Arush Verma</p>
-  </footer>
+            <div class="project">
+                <img src="assets/orbital_image.png" alt="Orbital Dynamics Project" class="project-image">
+                <div class="project-content">
+                    <h2>Orbital Dynamics</h2>
+                    <p>In this project, I developed a predictive model for tracking celestial bodies using machine learning. I trained a linear regression model on 250 data points to estimate the position of a comet over time, while also computing its velocity and acceleration. By scaling the model to different celestial objects, I demonstrated its adaptability in predicting orbital paths. The final analysis and visualizations were done using Matplotlib to illustrate real-time orbital movements.</p>
+                    <div class="project-buttons">
+                        <a href="assets/orbital_project.pdf" class="button-86" target="_blank">View Paper</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Arush Verma</p>
+    </footer>
 </body>
 </html>
