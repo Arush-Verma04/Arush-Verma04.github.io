@@ -68,8 +68,8 @@ section {
 .name-section::before {
   content: '';
   position: absolute;
-  top: 4px;
-  left: 8px;
+  top: 0px;
+  left: 2px;
   width: calc(100% + 16px);
   height: calc(100% + 8px);
   background-color: #f5f3f0;
